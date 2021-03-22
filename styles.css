@@ -16,6 +16,7 @@ h1 {
 .flex-container {
   display: flex;
   flex-direction: column;
+  width: fit-content;
 }
 
 .project-container {
@@ -175,4 +176,76 @@ a:active {
 
 #start-text {
   font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .sidenav {
+    visibility: hidden;
+  }
+
+  #zero-one {
+    height: fit-content;
+  }
+
+  #arrow {
+    visibility: hidden;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60vmin;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 0.2em;
+    padding: 0;
+    line-height: 0.9;
+  }
+
+  .collection-caption {
+    font-size: 8rem;
+  }
+
+  #about-me {
+    font-size: 5rem;
+  }
+
+  .img-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #tine-ipad {
+    display: none;
+  }
+
+  #tine-phone {
+    display: none;
+  }
+
+  .img-caption {
+    font-size: 5rem;
+    margin-top: 0;
+    font-weight: 600;
+  }
+
+  #project-description {
+    font-size: 4.5rem;
+    line-height: 150%;
+  }
+
+  #mobile-img-no-show {
+    display: none;
+  }
+
+  #languages {
+    display: none;
+  }
+
+  #phone {
+    display: none;
+  }
+
+  #artefakt-web {
+    display: none;
+  }
 }
