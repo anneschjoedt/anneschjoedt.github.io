@@ -1,0 +1,178 @@
+body {
+  font-family: HelveticaNeue-Light, Helvetica, sans-serif,
+    "Helvetica Neue Light", Icons;
+  margin: 0;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 183px;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 0 0 0 100px;
+  line-height: 165px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  padding: 0.7em;
+}
+
+.img-caption {
+  font-size: 60px;
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+  font-weight: 400;
+}
+
+.collection-caption {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 52px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.img-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#zero-one {
+  background-color: white;
+  height: 100vh;
+}
+
+.zero-two {
+  background-color: #45a15c;
+  padding: 0 80px 80px 80px;
+}
+
+.zero-three {
+  background-color: #a52a2a;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0 80px 80px 80px;
+}
+
+.zero-four {
+  background-color: #1a6fca;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 80px 80px 80px;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#arrow {
+  position: absolute;
+  top: 820px;
+  left: 10px;
+  opacity: 0.5;
+}
+
+#about {
+  top: 20px;
+  background-color: #45a15c;
+}
+
+#projects {
+  top: 80px;
+  background-color: #a52a2a;
+}
+
+#contact {
+  top: 140px;
+  background-color: #1a6fca;
+}
+
+#name:hover {
+  font-style: italic;
+  font-weight: 300;
+}
+
+#email:hover {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1a6fca;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#about-me {
+  font-size: 70px;
+  padding-left: 100px;
+}
+
+#development {
+  border-bottom: dotted;
+}
+
+#project-description {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#start-text {
+  font-size: 30px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -7,7 +8,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="flex-container">
+        <div id="zero-one">
+            <div id="mySidenav" class="sidenav">
+                <a href="#about-anchor" id="about">About</a>
+                <a href="#projects-anchor" id="projects">Projects</a>
+                <a href="#contact-anchor" id="contact">Contact</a>
+            </div>
+            <h1>Anne <br> Schjødt</h1>
+            <div style="padding-top: 13em;">
+                <h1 style="text-align: right;">Web &nbsp&nbsp&nbsp <br> development</h1>
+            </div>
+            <img id="arrow" src="img/arrow.png" width="50px" height="50px">
+        </div>
+        <div class="project-container zero-two">
+            <h2 class="collection-caption" id="about-anchor">01 About Me</h2>
+            <p id="about-me"> Hi. I'm a Copenhagen
+                based <br>
+                software
+                developer with a background <br> in art history and design.<br> &nbsp&nbsp&nbsp I do animation,
+                illustration
+                and <br> <span id="development">web
+                    development</span>.
+            </p>
+        </div>
+        <div class="project-container zero-three">
+            <h2 class="collection-caption" id="projects-anchor">02.1 Projects</h2>
+            <div class="img-row">
+                <img src="img/tine-ipad.png" width="400px" alt="Wall with paintings and post-its">
+                <img src="img/tine-phone.png" width="300px" alt="Wall with paintings and post-its">
+                <div>
+                    <p class="img-caption">2021: Professional digital CV</p>
+                    <p id="project-description">
+                        A <a href="http://www.tineschjoedt.dk/" style="color: black;">professional CV</a> made for a
+                        Danish specialist in
+                        digital campaigns.
+                        Tine Schjødt needed a website that could show potential clients what services she had to offer,
+                        show off earlier collaborations, and a possible to get in touch with her. <br>
+                        Created with <b>Wordpress</b>.
+                    </p>
+                </div>
+
+            </div>
+            <div class="img-row">
+                <img src="img/tine-macbookpro15.png" width="800px" alt="Wall with paintings and post-its">
+                <p class="img-caption"></p>
+            </div>
+        </div>
+
+        <div class="project-container zero-three">
+            <h2 class="collection-caption" id="projects-anchor">02.2 Projects</h2>
+            <div class="img-row">
+                <img src="img/netflix-example.png" width="800px" alt="Wall with paintings and post-its">
+                <div>
+                    <p class="img-caption">2021: Microlearning for Programming Languages</p>
+                    <p id="project-description">
+                        A Google Chrome extension designed to
+                        assist users in memorising concepts in programming
+                        languages
+                        such as Python, Java and JavaScript. Sketched in <b>Figma</b>. Developed with <b>React
+                            styled-components </b>and<b>
+                            Material-UI.</b>
+                        User settings stored in
+                        Firebase's
+                        Cloud Firestore (NoSQL). <br> Made in collaboration with three fellow students.
+                    </p>
+                </div>
+
+            </div>
+            <div class="img-row">
+                <img src="img/quiz.png" width="400px" alt="Wall with paintings and post-its">
+                <p class="img-caption"></p>
+                <img src="img/languages.png" width="800px" alt="Wall with paintings and post-its">
+                <p class="img-caption"></p>
+            </div>
+        </div>
+        <div class="project-container zero-three">
+            <h2 class="collection-caption">02.3 Projects</h2>
+            <div class="img-row">
+                <img src="img/artefakt_macbookpro15_front.png" width="800px" alt="Wall with paintings and post-its">
+                <div>
+                    <p class="img-caption">2021: Architectural Portfolio</p>
+                    <p id="project-description">
+                        An architectural portfolio and simple webshop. <br> Created with <b>HTML, CSS</b> and
+                        <b>JavaScript</b>.
+                        <br>
+                        Styling was
+                        made with <b>Flexbox</b>.
+                </div>
+
+            </div>
+            <div class="img-row">
+                <img src="img/artefaktmobile_portrait.png" width="300px" alt="Wall with paintings and post-its">
+                <p class="img-caption"></p>
+                <img src="img/artefakt01.png" width="800px" alt="Wall with paintings and post-its">
+                <p class="img-caption"></p>
+            </div>
+        </div>
+        <div class="project-container zero-three" style="justify-items: flex-start;">
+            <h2 class="collection-caption">02.4 Projects</h2>
+            <div class="img-row">
+                <img src="img/marie.png" width="600px" alt="Illustration of family in livingroom">
+                <div>
+                    <p class="img-caption">2018: Design collaboration with Makwerk & Dims Studio.</p>
+                    <p id="project-description">
+                        After having won the design competition held by Makwerk, my design was sold as print on
+                        posters and
+                        t-shirts on dimsstudio.com and in the local store in Århus. The print was created with ink and
+                        edited in <b>Photoshop</b>.
+                </div>
+
+            </div>
+        </div>
+        <div class="project-container zero-four">
+            <h2 class="collection-caption" id="contact-anchor">03 Contact</h2>
+            <p id="about-me">
+                &nbsp&nbsp&nbsp For collaborations <a
+                    href="mailto:anneschjoedt.contact@gmail.com? &subject=Collaboration&body=Hi. I would like to collaborate with you."><span
+                        id="email">anneschjoedt.contact@gmail.com.</span></a>
+            </p>
+
+        </div>
+        <div id="footer">All rights reserved © 2021</div>
+    </div>
+
 </body>
+
 </html>
