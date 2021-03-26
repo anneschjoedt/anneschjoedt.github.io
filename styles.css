@@ -146,7 +146,7 @@ img {
 
 #footer {
   display: flex;
-  justify-content: flex-end; <img src="img/tine-macbookpro15.png" width="500px" alt="Picture of ipad" id="tine-ipad">
+  justify-content: flex-end;
 }
 
 a:link {
@@ -269,5 +269,3 @@ a:active {
     width: 800px;
   }
 }
-
-
