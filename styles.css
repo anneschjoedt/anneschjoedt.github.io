@@ -70,8 +70,18 @@ img {
   padding: 0 80px 80px 80px;
 }
 
-.zero-three {
+.zero-three-one {
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0 80px 80px 80px;
+}
+
+.red-background {
   background-color: #a52a2a;
+}
+
+.zero-three {
   font-size: 90px;
   font-style: normal;
   font-weight: 700;
@@ -79,7 +89,6 @@ img {
 }
 
 .zero-four {
-  background-color: #1a6fca;
   font-size: 70px;
   font-style: normal;
   font-weight: 400;
@@ -137,8 +146,7 @@ img {
 
 #footer {
   display: flex;
-  justify-content: flex-end;
-  background-color: #1a6fca;
+  justify-content: flex-end; <img src="img/tine-macbookpro15.png" width="500px" alt="Picture of ipad" id="tine-ipad">
 }
 
 a:link {
@@ -178,7 +186,19 @@ a:active {
   font-size: 30px;
 }
 
-@media (max-width: 600px) {
+#tine-link:hover {
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-family: HelveticaNeue-Light, Helvetica, sans-serif,
+      "Helvetica Neue Light", Icons;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+  }
+
   .sidenav {
     visibility: hidden;
   }
@@ -214,10 +234,6 @@ a:active {
     align-items: flex-start;
   }
 
-  #tine-ipad {
-    display: none;
-  }
-
   #tine-phone {
     display: none;
   }
@@ -248,4 +264,10 @@ a:active {
   #artefakt-web {
     display: none;
   }
+
+  #tine-macbook {
+    width: 800px;
+  }
 }
+
+
